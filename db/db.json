@@ -1,0 +1,157 @@
+{
+  "pacientes": [
+    {
+      "id": 2,
+      "nombre": "Miguel sobrador",
+      "edad": 45,
+      "direccion": "Av. Siempre Viva 742",
+      "telefono": "555-5678"
+    },
+    {
+      "id": 3,
+      "nombre": "Laura Pérez",
+      "edad": 29,
+      "direccion": "Calle Luna 456",
+      "telefono": "555-8765"
+    },
+    {
+      "id": 4,
+      "nombre": "Carlos García",
+      "edad": 50,
+      "direccion": "Av. Sol 789",
+      "telefono": "555-4321"
+    },
+    {
+      "nombre": "Marco Marca",
+      "telefono": "7123456",
+      "direccion": "el alto",
+      "id": 6
+    },
+    {
+      "nombre": "Adamo",
+      "telefono": "69696969",
+      "direccion": "z. villa dolores",
+      "id": 7
+    }
+  ],
+  "dentistas": [
+    {
+      "id": 1,
+      "nombre": "Dra. Ana Rodríguez",
+      "especialidad": "Ortodoncia",
+      "telefono": "555-5678"
+    },
+    {
+      "id": 2,
+      "nombre": "Dr. José Martínez",
+      "especialidad": "Endodoncia",
+      "telefono": "555-2345"
+    },
+    {
+      "id": 3,
+      "nombre": "Dra. Elena Gómez",
+      "especialidad": "Periodoncia",
+      "telefono": "555-6789"
+    },
+    {
+      "id": 4,
+      "nombre": "Dr. Juan Sánchez",
+      "especialidad": "Cirugía Oral",
+      "telefono": "555-3456"
+    },
+    {
+      "nombre": "Dr. Marcos Marca",
+      "especialidad": "Ortodoncia",
+      "telefono": "12345678",
+      "id": 6
+    },
+    {
+      "nombre": "Dr. Leon kennedy",
+      "especialidad": "Ortodoncia",
+      "telefono": "78945612",
+      "id": 7
+    }
+  ],
+  "citas": [
+    {
+      "id": 2,
+      "pacienteId": 2,
+      "dentistaId": 2,
+      "fecha": "2024-09-02",
+      "hora": "10:00"
+    },
+    {
+      "id": 3,
+      "pacienteId": 3,
+      "dentistaId": 3,
+      "fecha": "2024-09-03",
+      "hora": "11:00"
+    },
+    {
+      "id": 4,
+      "pacienteId": 4,
+      "dentistaId": 4,
+      "fecha": "2024-09-04",
+      "hora": "12:00"
+    },
+    {
+      "id": 7,
+      "pacienteId": 2,
+      "dentistaId": 3,
+      "fecha": "2024-09-07",
+      "hora": "15:00"
+    },
+    {
+      "id": 8,
+      "pacienteId": 3,
+      "dentistaId": 4,
+      "fecha": "2024-09-08",
+      "hora": "16:00"
+    },
+    {
+      "pacienteId": 7,
+      "dentistaId": 6,
+      "fecha": "2024-08-21",
+      "hora": "11:59",
+      "id": 9
+    }
+  ],
+  "tratamientos": [
+    {
+      "id": 2,
+      "citaId": 2,
+      "descripcion": "Endodoncia",
+      "costo": 200
+    },
+    {
+      "id": 3,
+      "citaId": 3,
+      "descripcion": "Tratamiento de encías",
+      "costo": 100
+    },
+    {
+      "id": 4,
+      "citaId": 4,
+      "descripcion": "Extracción de muela",
+      "costo": 150
+    },
+    {
+      "id": 7,
+      "citaId": 7,
+      "descripcion": "Colocación de corona",
+      "costo": 250
+    },
+    {
+      "id": 8,
+      "citaId": 8,
+      "descripcion": "Limpieza profunda",
+      "costo": 100
+    },
+    {
+      "citaId": 4,
+      "descripcion": "revision",
+      "costo": 20,
+      "id": 9
+    }
+  ]
+}
