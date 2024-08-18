@@ -1,0 +1,15 @@
+Practica2 Vue3
+
+Nombre(s) de integrante(s):
+ - Miguel Angel Tambo Morales
+
+pasos para iniciar el proyecto
+
+  1) npm install
+  -correr la base de datos
+  2) cd db 
+  3) json-server --watch db.json --port 4000
+  -correr el programa
+  4) abrir otra terminal
+  5) npm run serve
+  
